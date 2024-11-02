@@ -75,19 +75,21 @@ button:hover:after {
   opacity: 1;
   right: 10px;
 }
-
-@keyframes anime {
+.main-img{
+  animation: anima;
+  animation-name: an;
+}
+@keyframes anima{
  0%{
   transform: translateY(0px);
  } 
+
  100%{
   transform: translateY(10px);
  }
+
 }
 
-.main-img img{
-  animation-name: aniem;
-}
 
 
 
