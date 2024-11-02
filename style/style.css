@@ -37,7 +37,7 @@ nav .topbar {
 /* Degine main content */
 .main-section {
   display: grid;
-  grid-template-columns: 65% 35%;
+  grid-template-columns: 60% 40%;
   background-color: #ffffff;
 }
 
@@ -173,7 +173,7 @@ nav .topbar {
 .work2{
   position: absolute;
   top: 100;
-  right: 400;
+  right: 450;
   z-index: -1;
   filter: blur(0.5px);
 }
@@ -182,3 +182,31 @@ nav .topbar {
   width: 300px;
   height: 75px;
 }
+
+.work3{
+  position: absolute;
+  top: 200;
+  right: 1;
+  z-index: 1;
+  filter: blur(0.5px);
+}
+.work3 img{
+  width: 300px;
+  height: 75px;
+}
+
+.work4 img{
+  width: 300px;
+  height: 75px;
+}
+
+.work4{
+  position: absolute;
+  top: 450;
+  right: 500;
+  z-index: 10;
+  filter: blur(0.5px);
+}
+
+
+
