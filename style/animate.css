@@ -23,18 +23,18 @@
 }
 li a:hover:after {
   width: 100%;
-  background-color: #0549f5;
+  background-color: #5b13d0;
 }
 
 li a:hover {
-  color: #0549f5;
+  color: #5b13d0;
   /* color: rebeccapurple; */
 }
 
 /* //button animation */
 .btn {
   border-radius: 4px;
-  background-color: #7091E6;
+  background-color: #5014b1;
   border: none;
   color: #fff;
   text-align: center;
@@ -75,3 +75,20 @@ button:hover:after {
   opacity: 1;
   right: 10px;
 }
+
+@keyframes anime {
+ 0%{
+  transform: translateY(0px);
+ } 
+ 100%{
+  transform: translateY(10px);
+ }
+}
+
+.main-img img{
+  animation-name: aniem;
+}
+
+
+
+
