@@ -66,12 +66,12 @@ li a:hover {
 
 }
 
-button:hover{
+.btn:hover{
   padding-right: 24px;
   padding-left:8px;
 }
 
-button:hover:after {
+.btn:hover:after {
   opacity: 1;
   right: 10px;
 }
@@ -79,18 +79,6 @@ button:hover:after {
   animation: anima;
   animation-name: an;
 }
-@keyframes anima{
- 0%{
-  transform: translateY(0px);
- } 
-
- 100%{
-  transform: translateY(10px);
- }
-
-}
-
-
 
 
 

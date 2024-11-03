@@ -37,6 +37,10 @@ nav .topbar {
   align-items: center;
   list-style: none;
 }
+.contact{
+  margin-right: 1rem;
+}
+
 /* Degine main content */
 .landing-section {
   display: grid;
@@ -73,7 +77,16 @@ nav .topbar {
   font-weight: 700;
   /* display: block; */
 }
+.highlight-title{
+  position: relative;
+}
 
+.highlight{
+  background: linear-gradient(236deg, rgb(129, 3, 213) 0%, rgba(248,240,249,1) 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}
 .peole-container {
   display: flex;
   justify-content: start;
@@ -118,9 +131,10 @@ nav .topbar {
 
 /* second section */
 .second-side {
+ 
 }
 .second-side img{
-  width: 250px;
+  width: 700px;
 }
 /* .second-side div {
   background-color: #9966cc;
