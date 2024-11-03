@@ -197,12 +197,12 @@ p.about-us-title {
 .stats{
   padding: 3rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  gap: 1rem;
 }
 
 .successfully-place{
-  background-color:white;
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: rgba(93, 50, 92, 0.25) 0px 30px 60px -12px inset, rgba(76, 143, 224, 0.3) 0px 18px 36px -18px inset;
@@ -215,7 +215,7 @@ p.about-us-title {
 }
 
 .stats .title{
-  font-weight: 500; 
+  font-weight: 600; 
 }
 
 .stats .des{
@@ -229,6 +229,18 @@ p.about-us-title {
 }
 
 .success-rate .percent{
+  font-size: 4.3rem;
+  color: #6b1abd;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.customer-satifaction{
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(93, 50, 92, 0.25) 0px 30px 60px -12px inset, rgba(76, 143, 224, 0.3) 0px 18px 36px -18px inset;
+}
+
+.customer-satifaction .statifaction-ratio{
   font-size: 4.3rem;
   color: #6b1abd;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
