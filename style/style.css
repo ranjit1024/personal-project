@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+:root{
+  --primery-color:"#8000ff";
+}
 * {
   /* font-family: "Poppins", sans-serif; */
   font-family: "Poppins";
@@ -48,11 +51,13 @@ nav .topbar {
   grid-template-columns: 1fr 1fr;
   background-color: white;
   margin-top: 10rem;
+ 
 }
 
 .content {
   /* padding-left: 30px; */
   margin-left: 50px;
+  animation: slide-left 1s ease-in-out;
 }
 
 .context {
@@ -134,14 +139,11 @@ nav .topbar {
 .second-side {
  
 }
+
 .second-side img{
   width: 700px;
+  animation: slide-right 2s ease-in-out;
 }
-/* .second-side div {
-  background-color: #9966cc;
-  width: 100px;
-  height: 100px;
-} */
 
 /* About Section */
 .about-section {
@@ -151,8 +153,6 @@ nav .topbar {
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin: 8rem 1rem;
- 
-  
 }
 
 .about-grid{
@@ -207,11 +207,10 @@ p.about-us-title {
   border-radius: 1rem;
   box-shadow: rgba(93, 50, 92, 0.25) 0px 30px 60px -12px inset, rgba(76, 143, 224, 0.3) 0px 18px 36px -18px inset;
 }
-
 .successfully-place .number{
   font-size: 4.3rem;
-  color: #6b1abd;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #8000ff;
+  /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 .stats .title{
@@ -230,8 +229,8 @@ p.about-us-title {
 
 .success-rate .percent{
   font-size: 4.3rem;
-  color: #6b1abd;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #8000ff;
+  /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 .customer-satifaction{
@@ -242,6 +241,54 @@ p.about-us-title {
 
 .customer-satifaction .statifaction-ratio{
   font-size: 4.3rem;
-  color: #6b1abd;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #8000ff;
+  /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+
+/* //why choose us */
+.choose-us{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-align: center;
+}
+
+.choose-us-text .title{
+  font-size: 1.1rem;
+  color: #8000ff;
+  font-weight: 600;
+}
+.choose-us-text .des{
+  padding: 2rem;
+  font-size: 3.5rem;
+  color: var(--primery-color);
+  font-weight: 500;
+}
+
+.choose-us-text .customer-des{
+  width: 70%;
+  font-weight: 400;
+  margin: auto;
+}
+
+
+@keyframes slide-right {
+  0%{
+    transform: translateX(100rem);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+
+@keyframes slide-left {
+  0%{
+    transform: translatex(-10rem);
+  }
+  100%{
+    transform: translatex(0rem);
+  }
 }
