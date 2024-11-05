@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-:root{
-  --primery-color:"#8000ff";
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+:root {
+  --primery-color: "#8000ff";
 }
 * {
   /* font-family: "Poppins", sans-serif; */
@@ -43,7 +43,7 @@ nav .topbar {
   align-items: center;
   list-style: none;
 }
-.contact{
+.contact {
   margin-right: 1rem;
 }
 
@@ -53,7 +53,6 @@ nav .topbar {
   grid-template-columns: 1fr 1fr;
   background-color: white;
   margin-top: 10rem;
- 
 }
 
 .content {
@@ -85,15 +84,18 @@ nav .topbar {
   font-weight: 700;
   /* display: block; */
 }
-.highlight-title{
+.highlight-title {
   position: relative;
 }
 
-.highlight{
-  background: linear-gradient(236deg, rgb(129, 3, 213) 0%, rgba(248,240,249,1) 100%);
+.highlight {
+  background: linear-gradient(
+    236deg,
+    rgb(129, 3, 213) 0%,
+    rgba(248, 240, 249, 1) 100%
+  );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-
 }
 .peole-container {
   display: flex;
@@ -137,11 +139,11 @@ nav .topbar {
   width: 35px;
 }
 
-/* second section */ */
-.second-side{
+/* second section */
+*/ .second-side {
   margin-top: -100px;
 }
-.second-side .second-side-img{
+.second-side .second-side-img {
   display: flex;
   justify-content: center;
   /* align-items: center; */
@@ -149,8 +151,8 @@ nav .topbar {
   height: 100%;
   /* margin-top: -100px; */
 }
-.second-side .second-side-img img{
- width: 600px;
+.second-side .second-side-img img {
+  width: 600px;
 }
 /* About Section */
 .about-section {
@@ -162,7 +164,7 @@ nav .topbar {
   width: 96%;
 }
 
-.about-grid{
+.about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
@@ -181,7 +183,6 @@ p.about-us-title {
   font-size: 2.5rem;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.838);
-
 }
 
 .about-us-des {
@@ -194,14 +195,14 @@ p.about-us-title {
 .another-des {
   margin-top: 1.5rem;
 }
-.about-image{
+.about-image {
   width: 100%;
 }
-.about-image img{
+.about-image img {
   width: 100%;
 }
 
-.stats{
+.stats {
   padding: 3rem;
   display: flex;
   justify-content: space-evenly;
@@ -209,52 +210,56 @@ p.about-us-title {
   gap: 1rem;
 }
 
-.successfully-place{
+.successfully-place {
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: rgba(93, 50, 92, 0.25) 0px 30px 60px -12px inset, rgba(76, 143, 224, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  /* box-shadow: rgba(93, 50, 92, 0.25) 0px 30px 60px -12px inset, rgba(76, 143, 224, 0.3) 0px 18px 36px -18px inset; */
 }
-.successfully-place .number{
+.successfully-place .number {
+  font-size: 4.3rem;
+  color: #8000ff;
+
+  /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.stats .title {
+  font-weight: 600;
+}
+
+.stats .des {
+  font-weight: 400;
+}
+
+.success-rate {
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.success-rate .percent {
   font-size: 4.3rem;
   color: #8000ff;
   /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
 }
 
-.stats .title{
-  font-weight: 600; 
-}
-
-.stats .des{
-  font-weight: 00;
-}
-
-.success-rate{
+.customer-satifaction {
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: rgba(93, 50, 92, 0.25) 0px 30px 60px -12px inset, rgba(76, 143, 224, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 
-.success-rate .percent{
+.customer-satifaction .statifaction-ratio {
   font-size: 4.3rem;
   color: #8000ff;
   /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
 }
-
-.customer-satifaction{
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: rgba(93, 50, 92, 0.25) 0px 30px 60px -12px inset, rgba(76, 143, 224, 0.3) 0px 18px 36px -18px inset;
-}
-
-.customer-satifaction .statifaction-ratio{
-  font-size: 4.3rem;
-  color: #8000ff;
-  /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
-}
-
 
 /* //why choose us */
-.choose-us{
+.choose-us {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -263,25 +268,25 @@ p.about-us-title {
   flex-direction: column;
 }
 
-.choose-us-text .title{
+.choose-us-text .title {
   font-size: 1.1rem;
   color: #8000ff;
   font-weight: 600;
 }
-.choose-us-text .des{
+.choose-us-text .des {
   padding: 2rem;
   font-size: 3.5rem;
   color: var(--primery-color);
   font-weight: 500;
 }
 
-.choose-us-text .customer-des{
+.choose-us-text .customer-des {
   width: 70%;
   font-weight: 400;
   margin: auto;
 }
 
-.choose-us-image{
+.choose-us-image {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -290,55 +295,49 @@ p.about-us-title {
   margin-top: 3rem;
 }
 
-.get-hired{
+.get-hired {
   width: 100%;
   margin: auto;
 }
-.get-hired img{
+.get-hired img {
   width: 300px;
   text-align: center;
   margin: auto;
 }
 
-
-.right-company{
+.right-company {
   width: 100%;
   margin: auto;
 }
 
-.right-company img{
+.right-company img {
   width: 300px;
   text-align: center;
   margin: auto;
 }
 
-.industry-standerd-pay{
+.industry-standerd-pay {
   width: 100%;
   margin: auto;
 }
 
-.industry-standerd-pay img{
+.industry-standerd-pay img {
   width: 300px;
   text-align: center;
   margin: auto;
 }
 
-.get-hired p{
+.get-hired p {
   font-size: 1.6rem;
   font-weight: 400;
-  /* color:rgb(63, 54, 54); */
-  font-family: "Merriweather", serif;
 }
 
-.right-company p{
+.right-company p {
   font-size: 1.6rem;
   font-weight: 400;
-  /* color:rgb(63, 54, 54); */
-  font-family: "Merriweather", serif;
 }
 
-.industry-standerd-pay p{
+.industry-standerd-pay p {
   font-size: 1.6rem;
-  font-family: "Merriweather", serif;
-  /* color:rgba(63, 54, 54, 0.839); */
+  font-weight: 400;
 }
