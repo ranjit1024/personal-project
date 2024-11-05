@@ -205,12 +205,13 @@ p.about-us-title {
 .stats {
   padding: 3rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  gap: 1.2rem;
 }
 
 .successfully-place {
+  width: 100%;
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
@@ -233,6 +234,7 @@ p.about-us-title {
 }
 
 .success-rate {
+  width: 100%;;
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
@@ -246,6 +248,7 @@ p.about-us-title {
 }
 
 .customer-satifaction {
+  width: 100%;
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
@@ -288,10 +291,11 @@ p.about-us-title {
 
 .choose-us-image {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
   width: 80%;
+  gap: 4rem;
   margin-top: 3rem;
 }
 
@@ -327,17 +331,53 @@ p.about-us-title {
   margin: auto;
 }
 
-.get-hired p {
+.get-hired .title {
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 600;
+  background: rgb(238,238,238);
+  background: linear-gradient(153deg, rgba(91, 7, 226) 40%, rgb(238,238,238,1) 70%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
-.right-company p {
+.right-company .title {
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 600;
+  background: rgb(238,238,238);
+  background: linear-gradient(153deg, rgba(91, 7, 226) 40%, rgb(238,238,238,1) 80%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
-.industry-standerd-pay p {
+.industry-standerd-pay .title {
   font-size: 1.6rem;
+  font-weight: 600;
+  background: rgb(238,238,238);
+  background: linear-gradient(153deg, rgba(91, 7, 226) 40%, rgb(238,238,238,1) 60%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.get-hired .des{
+  margin-top: 1rem;
+  font-size: 1rem;
   font-weight: 400;
+  width: 100%
+  
+}
+.right-company .des{
+  margin-top: 1rem;
+  font-size: 1rem;
+  width: 100%;
+  font-weight: 400;
+  height: auto;
+  text-align: center;
+}
+
+.industry-standerd-pay .des{
+  margin-top: 1rem;
+  font-size: 1rem;
+  width: 100%;
+  font-weight: 400;
+  height: auto;
+  text-align: center;
 }
