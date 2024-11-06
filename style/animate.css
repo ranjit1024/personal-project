@@ -1,14 +1,13 @@
 .topbar li a {
   list-style-type: none;
   display: inline-block;
-  margin-right: 60px;
+  /* margin-right: 3rem; */
   padding-bottom: 0px;
-  font-size: 18px;
+  font-size: 1.1rem;
   text-decoration: none;
-  color: black;
-  color: rgba(0, 0, 0, 0.737);
+  color: #5c6069;
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 440;
 }
 
 .topbar li a:after {
