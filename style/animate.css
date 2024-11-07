@@ -7,7 +7,9 @@
   text-decoration: none;
   color: #5c6069;
   letter-spacing: 1px;
-  font-weight: 440;
+  font-weight: 400;
+  margin: auto;
+  text-align: center;
 }
 
 .topbar li a:after {

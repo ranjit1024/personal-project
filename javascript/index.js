@@ -13,14 +13,12 @@ hidelElement.forEach(el => observer.observe(el));
 
 const observe2 = new IntersectionObserver(entries =>{
    entries.forEach(entry =>{
-    entry.target.classList.toggle("show2", entry.isIntersecting)
+    if(entry.isIntersecting){
+        entry.target.classList.add("show2")
+    }
    })
 })
 
 const leftToRightElement = document.querySelectorAll(".hide2");
 leftToRightElement.forEach(el => observe2.observe(el))
 
-const contactmodem = document.querySelector(".contact");
-contactmodem.addEventListener("click", (e)=>{
-    console.log('ok');
-})
