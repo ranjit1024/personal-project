@@ -19,7 +19,6 @@
   height: 2px;
   width: 0%;
   background-color: transparent;
-  /* transition: width 0.5s ease,background-color 0.5s ease; */
   transition: all 0.5s ease;
 }
 li a:hover:after {
@@ -34,20 +33,28 @@ li a:hover {
 
 /* //button animation */
 .btn {
+  display: flex;
   border-radius: 4px;
   background-color: #5014b1;
   border: none;
   color: #fff;
   text-align: center;
-  font-size: 16px;
-  padding: 10px;
-  width: 150px;
+
+  width: 200px;
   transition: all 0.5s;
   cursor: pointer;
+  height: 50px;
+  margin-top: 30px;
   /* margin: 36px; */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-
+.btn span{
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
 .btn{
   cursor: pointer;
   display: inline-block;
@@ -62,7 +69,7 @@ li a:hover {
   position: absolute;
   opacity: 0;  
   top: 0px;
-  right: -20px;
+  right: -9px;
   transition: 0.5s;
 
 }
@@ -76,10 +83,7 @@ li a:hover {
   opacity: 1;
   right: 10px;
 }
-.main-img{
-  animation: anima;
-  animation-name: an;
-}
+
 
 
 

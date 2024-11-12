@@ -25,5 +25,6 @@ close.addEventListener("click", (e) => {
 });
 
 gmail.addEventListener("click", (e)=>{
-    window.open("https://mail.google.com/")
+    window.open("https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMVWFRcbFzpmjRnSQTGMCFXnJlFWPkQKdzMVhndZkzdhQmnxlZjSMlGZxsLghkmNRTfQdGh");
+    
 })
