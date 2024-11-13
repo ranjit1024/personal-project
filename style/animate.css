@@ -65,10 +65,10 @@ li a:hover {
 
 .btn:after {
   content: '»';
-  font-size: 30px;
+  font-size: 35px;
   position: absolute;
   opacity: 0;  
-  top: 0px;
+  top: -2px;
   right: -9px;
   transition: 0.5s;
 

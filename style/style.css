@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.cdnfonts.com/css/mistral');
 :root {
   --primery-color: "#8000ff";
 }
@@ -14,9 +15,8 @@
 
 /* Building top bar */
 nav {
-  border-radius: 1%;
+  border-radius: 0 0 10% 10%;
   min-width: 100vh;
-  /* background: rgba(79, 55, 138, 16%); */
   display: flex;
   text-align: center;
   justify-content: space-around;
@@ -39,15 +39,12 @@ nav .topbar {
   list-style: none;
   gap: 3rem;
 }
-/* .contact {
-  margin-right: 1rem;
-} */
 
-/* Degine main content */
 .landing-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 10rem;
+  height: auto;
   /* padding-bottom: 3rem; */
   background: linear-gradient(
     90deg,
@@ -57,7 +54,7 @@ nav .topbar {
 }
 
 .content {
-  margin-left: 25px;
+  margin-left: 50px;
 }
 
 .context {
@@ -67,23 +64,29 @@ nav .topbar {
   margin-bottom: 30px;
 }
 
-.title span {
-  font-size: 50px;
-  font-weight: 700;
+.title .heading {
+  font-size:4rem;
+  /* font-weight: 700; */
+  font-family: 'Mistral', sans-serif;
+  color: rgb(35, 3, 66);
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.544);                           
   /* display: block; */
 }
 
 .tag-line {
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
+ 
 }
 
 .learn-more {
-  margin-top: 20px;
+  margin-top: 10px;
 }
-
+.main-logo img{
+  width: 200px;
+}
 .info {
-  margin-top: 125px;
+  margin-top: 5rem;
   width: 600px;
   font-size: 27px;
   font-weight: 500;
@@ -102,43 +105,43 @@ nav .topbar {
 
 /* second section */
 .second-side {
-  margin-top: -120px;
-  opacity: 0;
-  border-radius: 20px;
+  margin-top: -100px;
+  /* opacity: 0; */
+  border-radius: 10px;
   background-color: black;
   background-image: url("/images/backgriound.avif");
   background-position: center;
   background-size: cover;
   border-radius: 20px;
-  margin-right: 25px;
+  margin-right: 50px;
   opacity: 0;
+  background-repeat: no-repeat;
+  
+  /* padding-bottom: 3rem; */
 }
 
 .second-side .second-side-img {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: end;
+  align-items: end;
   text-align: center;
-  position: relative;
-  
+  /* position: relative; */
+  height: 100%;
 }
-
 
 .second-side .second-side-img .main-img {
   width: 80%;
-  height: 80%;
+  /* height: 0%; */
   /* opacity: 0.9; */
   text-align: center;
-  margin:auto;
-
+  margin: 0px auto;
 }
 
 /* About Section */
 .about-section {
-  background-color: white;
   margin-top: 10px;
   border-radius: 1rem;
- 
+  /* background: rgba(79, 55, 138, 16%);  */
   margin: 8rem 1rem;
   width: 96%;
 }
@@ -194,9 +197,9 @@ p.about-us-title {
   width: 100%;
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
-    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
-  /* box-shadow: rgba(93, 50, 92, 0.25) 0px 30px 60px -12px inset, rgba(76, 143, 224, 0.3) 0px 18px 36px -18px inset; */
+  background-color: #bf9fdd;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .successfully-place .number {
   font-size: 4.3rem;
@@ -217,8 +220,9 @@ p.about-us-title {
   width: 100%;
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
-    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  background-color: #bf9fdd;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .success-rate .percent {
@@ -231,8 +235,9 @@ p.about-us-title {
   width: 100%;
   padding: 2rem;
   border-radius: 1rem;
-  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
-    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  background-color: #bf9fdd;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .customer-satifaction .statifaction-ratio {
@@ -247,12 +252,15 @@ p.about-us-title {
   align-items: center;
   justify-content: center;
   text-align: center;
-  text-align: center;
   flex-direction: column;
-  background: rgba(79, 55, 138, 16%); 
-  padding: 3rem;
-  margin: 10px;
-  border-radius: 10px;
+  background: rgba(79, 55, 138, 16%);
+
+  padding: 2rem;
+
+  border-radius: 1rem;
+
+  margin: 0px 20px;
+  width: 96%;
 }
 
 .choose-us-text .title {
@@ -391,9 +399,9 @@ footer .footer-content {
 }
 
 .footer-logo img {
-  width: 300px;
+  width: 18rem;
   text-align: center;
-  mix-blend-mode: darken;
+  /* mix-blend-mode: darken; */
 }
 .footer-logo p {
   text-align: center;
