@@ -23,7 +23,7 @@
 }
 li a:hover:after {
   width: 100%;
-  background-color: #5b13d0;
+  background-color: #380885;
 }
 
 li a:hover {
@@ -35,7 +35,7 @@ li a:hover {
 .btn {
   display: flex;
   border-radius: 4px;
-  background-color: #760fd6;
+  background-color: #3d0770;
   border: none;
   color: #fff;
   text-align: center;
