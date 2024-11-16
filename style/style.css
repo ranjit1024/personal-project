@@ -11,9 +11,11 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  
 }
 
 /* Building top bar */
+
 nav {
   border-radius: 0 0 10% 10%;
   min-width: 100vh;
@@ -33,6 +35,7 @@ nav {
 }
 
 nav .topbar {
+  border-radius: 0 0 10% 10%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -460,4 +463,8 @@ footer li {
 }
 .hide2:nth-child(3) {
   transition-delay: 600ms;
+}
+
+.main-hide{
+  display: none;
 }
