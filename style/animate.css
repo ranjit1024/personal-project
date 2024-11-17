@@ -48,12 +48,14 @@ li a:hover {
   /* margin: 36px; */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.btn span{
+.btn a{
   font-size: 20px;
   text-align: center;
   align-items: center;
   justify-content: center;
   font-weight: 500;
+  text-decoration: none;
+  color: white;
 }
 .btn{
   cursor: pointer;
