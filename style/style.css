@@ -18,6 +18,9 @@
 .mobile-nav{
   display: none; 
 }
+.mobile-button button{
+  background-color: rebeccapurple;
+}
 
 nav {
   border-radius: 0 0 10% 10%;
@@ -57,6 +60,7 @@ nav .topbar {
     rgba(232, 229, 238, 16%) 24%,
     rgba(81, 11, 253, 16%) 95%
   );
+  width: 100%;
 }
 
 .content {

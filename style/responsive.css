@@ -1,104 +1,132 @@
+@media (max-width: 992px) {
+  nav {
+    display: none;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
 
-@media  (max-width:992px){
-    nav{
-        display: none;
-    }
-   
 
-    .landing-section{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin: 0px
-        /* min-width: 100%; */
-    }   
+  .landing-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+    /* width: 100vw; */
+    /* min-width: 100%; */
+  }
 
-    .main-logo{
-        display: none;
-    }
-    .title .heading{
-        font-size: 4rem;
-      
-    }
-    .tag-line{
-        margin-top: 0.1rem;
-    }
-    .info{
-        text-align: center;
-        margin: auto;
-        margin-bottom: 2rem;
-        margin-top: 2rem;
-    }
+  .main-logo {
+    display: none;
+  }
+  .title .heading {
+    font-size: 4rem;
+    width: 100%;
+    display: block;
+  }
+  .tag-line {
+    margin-top: 0.1rem;
+    width: 400px;
+    /* display:none; */
+  }
+  .btn
+  {
+    display: none
+  }
 
-    .content{
-        margin-left: 0px;
-        text-align: center;
-    }
-    .second-side{
-        margin: 10px 10px;
-    }
+  .info {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
 
-    .about-grid {
-        display: flex;
-        flex-direction: column;
-    }
-    .stats{
-        display: flex;
-        flex-direction: column;
-    }
-    .choose-us{
-        display: flex;
-        margin:10px
-    }
-    .choose-us-image{
-        flex-direction: column;
-    }
+  .content {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .second-side {
+    margin: 10px 10px;
+  }
+
+  .about-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .stats {
+    display: flex;
+    flex-direction: column;
+  }
+  .choose-us {
+    display: flex;
+    margin: 0px 0px;
+    /* width: 100%; */
+  }
+  .choose-us-image {
+    flex-direction: column;
+  }
+
+@media (max-width: 992px) {
+  footer .footer-content {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-left: 2rem;
+  }
+  .footer-logo img {
+    width: 10rem;
+  }
 }
-@media (max-width:992px) {
-    footer .footer-content {
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-        padding-left: 2rem;
-    }
-    .footer-logo img{
-        width: 10rem;
-    }
+
 }
-@media (max-width:890px) {
-    .mobile-nav{
-        position: fixed;
-        display: inline;
-        right: 10px;
-        top: 10px;
-        z-index: 2;
-        border-radius: 10px;
-        background-color: rgba(255, 255, 255, 0.553);
+@media (max-width: 900) {
+  .mobile-nav {
+    position: fixed;
+    display: inline;
+    right: 10px;
+    top: 10px;
+    z-index: 2;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.553);
+  }
+  .mobile-nav i {
+    text-align: center;
+    margin: auto;
+    background-color: transparent;
+    color: darkblue;
+    font-weight: 1000;
+    padding: 2px;
+    font-size: 2rem;
+    border-radius: 10px;
+  }
+  .mobile-topbar {
+    position: fixed;
+    background-color: white;
+    z-index: 2;
+    padding: 10px;
+    list-style: none;
+    right: 37;
+    top: 56;
+    border-radius: 5px;
+  }
+  .mobile-topbar .close {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 3;
+    top: -4;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: start;
+    &:hover {
+      color: rebeccapurple;
     }
-    .mobile-nav i{
-        text-align: center;
-        margin: auto;
-        background-color:transparent;
-        color: darkblue;
-        font-weight: 1000;
-        padding: 2px;
-        font-size: 2rem;
-        border-radius: 10px;
-    }
-    .mobile-topbar{
-        position:fixed;
-        background-color: white;
-        z-index: 2;
-        padding: 10px;
-        list-style: none;
-        right: 37;
-        top: 56;
-        border-radius: 5px;
-    }
-    .mobile-topbar .topbar li{
-        list-style: none;
-        margin: 10px;
-    }
+  }
+  .mobile-topbar .topbar li {
+    list-style: none;
+    margin: 10px;
+  }
 }
