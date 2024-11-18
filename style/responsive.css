@@ -17,6 +17,7 @@
     text-align: center;
     /* display:none; */
     margin: 0px;
+    width: 110%;
     /* width: 100vw; */
     /* min-width: 100%; */
   }
@@ -48,13 +49,19 @@
     text-align: center;
   }
   .second-side {
-    margin: 10px 10px;
+    margin: 10px auto;
+    /* display:none; */
   }
-
+  .about-section{
+    text-align: center;
+    margin:1px 1px ;
+    width: 100%;
+  }
   .about-grid {
     display: flex;
     flex-direction: column;
   }
+
   p.about-us-title {
     font-size: 1.5rem;
     }
@@ -66,6 +73,8 @@
     font-size: 2.5rem;
     text-align: center;
   }
+
+
 
   .choose-us-image{
     display: flex;
