@@ -144,11 +144,13 @@
   left: 10;
   position: fixed; 
   border: none;
+  display: none;
 }
-.main-mob i{
+.main-mob {
   font-size: 1.7rem;
   font-weight: bolder;
   color: darkgreen;
+  
 }
 
 .name input{
