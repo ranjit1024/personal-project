@@ -1,13 +1,12 @@
+
 @media (max-width: 992px) {
-  header {
+  nav {
+    display: none;
+    width: 20px;
+  }
+  .topbar li a {
     display: none;
   }
-  .container{
-    margin: 0;
-    padding: 0;
-    margin: auto;
-  }
-
 
   .landing-section {
     display: flex;
@@ -17,7 +16,7 @@
     text-align: center;
     /* display:none; */
     margin: 0px;
-    width: 110%;
+    width: 100%;
     /* width: 100vw; */
     /* min-width: 100%; */
   }
@@ -25,6 +24,7 @@
   .main-logo {
     display: none;
   }
+
   .title .heading {
     font-size: 4rem;
     width: 100%;
@@ -33,58 +33,80 @@
   .tag-line {
     margin-top: 0.1rem;
     width: 400px;
+    text-align: center;
+    margin: auto;
     /* display:none; */
   }
-  
 
+  
   .info {
     text-align: center;
     margin: auto;
     margin-bottom: 2rem;
     margin-top: 2rem;
   }
-
+  
   .content {
     margin-left: 0px;
     text-align: center;
   }
   .second-side {
-    margin: 10px auto;
-    /* display:none; */
+    margin: 10px;
+    width: 96%;
   }
-  .about-section{
-    text-align: center;
-    margin:1px 1px ;
+
+  .about-section {
+    /* text-align: center; */
+    margin: 1px 1px;
     width: 100%;
+    margin: 10px 10px;
+  }
+  .about-grid .about-info-text{
+    padding: 1rem;
+  }
+  p.about-us-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+  .about-image{
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
   }
   .about-grid {
     display: flex;
     flex-direction: column;
   }
-
-  p.about-us-title {
-    font-size: 1.5rem;
-    }
   .stats {
     display: flex;
     flex-direction: column;
   }
-  .choose-us-text .des{
+
+  .choose-us{
+    padding: 1rem;
+  }
+
+  .choose-us-text .des {
     font-size: 2.5rem;
     text-align: center;
   }
 
-
-
-  .choose-us-image{
+  .choose-us-image {
     display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  gap: 4rem;
-  margin-top: 3rem;
-  flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    gap: 4rem;
+    margin-top: 3rem;
+    flex-direction: column;
+  }
+
+  .contact{
+    display: flex
+  }
+  .contact-image{
+    display:none;
   }
 }
 
@@ -100,4 +122,13 @@
   }
 }
 
-
+@media (max-width:990px) {
+  .mobile{
+    display: block;
+    position: fixed;
+    right: 1;
+    top: 1;
+    z-index: 1;
+  }
+  
+}

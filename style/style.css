@@ -15,13 +15,35 @@
 }
 
 /* Building top bar */
-.mobile-nav{
+.mobile{
   display: none; 
 }
-.mobile-button button{
-  background-color: rebeccapurple;
+.mobile-nav i{
+  font-size: 2rem;
 }
 
+
+.mobile-menu{
+  position: fixed;
+  right: 40;
+  top: 20;
+  background-color: rgb(162, 120, 204);
+  padding: 1rem; 
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.mobile-menu ul{
+  list-style: none;
+
+}
+.mobile-menu ul li a{
+  list-style: none;
+  text-decoration: none;
+  color:white;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+/* desktop topbar */
 nav {
   border-radius: 0 0 10% 10%;
   min-width: 100vh;

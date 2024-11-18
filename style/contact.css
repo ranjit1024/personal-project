@@ -9,12 +9,9 @@
   margin-right: 10px;
   font-size: 1.5rem;
 }
+
 .contact {
-  /* background: linear-gradient(
-    90deg,
-    rgba(232, 229, 238, 16%) 24%,
-    rgba(174, 169, 187, 0.16) 95%
-  ); */
+
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
