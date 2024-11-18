@@ -10,6 +10,7 @@
   font-size: 1.5rem;
 }
 
+
 .contact {
 
   height: 100vh;
@@ -137,6 +138,17 @@
 /* //styling name */
 .name{
   margin-bottom: 2rem;
+}
+.main-mob{
+  top: 10;
+  left: 10;
+  position: fixed; 
+  border: none;
+}
+.main-mob i{
+  font-size: 1.7rem;
+  font-weight: bolder;
+  color: darkgreen;
 }
 
 .name input{

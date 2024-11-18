@@ -16,7 +16,7 @@ const mobileNav =document.querySelector(".mobile-nav");
 const mobileMenu = document.querySelector(".mobile-menu");
 
 const contactUsMob = document.querySelector(".contact-us-mob");
-
+const mainMob = document.querySelector(".main-mob");
 
 contactButton.addEventListener('click', e =>{
     nav.classList.add("main-hide");
@@ -56,4 +56,11 @@ contactUsMob.addEventListener("click", e => {
     main.classList.add("main-hide");
     footer.classList.add("main-hide");
     contactcontainer.classList.remove("main-hide")
+})
+
+mainMob.addEventListener('click', e =>{
+    nav.classList.remove("main-hide");
+    main.classList.remove("main-hide");
+    footer.classList.remove("main-hide");
+    contactcontainer.classList.add("main-hide")
 })
