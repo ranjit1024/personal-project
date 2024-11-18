@@ -1,10 +1,11 @@
 @media (max-width: 992px) {
-  nav {
+  header {
     display: none;
   }
-  *{
+  .container{
     margin: 0;
     padding: 0;
+    margin: auto;
   }
 
 
@@ -14,6 +15,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    /* display:none; */
     margin: 0px;
     /* width: 100vw; */
     /* min-width: 100%; */
@@ -32,10 +34,7 @@
     width: 400px;
     /* display:none; */
   }
-  .btn
-  {
-    display: none
-  }
+  
 
   .info {
     text-align: center;
@@ -56,18 +55,29 @@
     display: flex;
     flex-direction: column;
   }
+  p.about-us-title {
+    font-size: 1.5rem;
+    }
   .stats {
     display: flex;
     flex-direction: column;
   }
-  .choose-us {
+  .choose-us-text .des{
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .choose-us-image{
     display: flex;
-    margin: 0px 0px;
-    /* width: 100%; */
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  gap: 4rem;
+  margin-top: 3rem;
+  flex-direction: column;
   }
-  .choose-us-image {
-    flex-direction: column;
-  }
+}
 
 @media (max-width: 992px) {
   footer .footer-content {
@@ -81,52 +91,4 @@
   }
 }
 
-}
-@media (max-width: 900) {
-  .mobile-nav {
-    position: fixed;
-    display: inline;
-    right: 10px;
-    top: 10px;
-    z-index: 2;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.553);
-  }
-  .mobile-nav i {
-    text-align: center;
-    margin: auto;
-    background-color: transparent;
-    color: darkblue;
-    font-weight: 1000;
-    padding: 2px;
-    font-size: 2rem;
-    border-radius: 10px;
-  }
-  .mobile-topbar {
-    position: fixed;
-    background-color: white;
-    z-index: 2;
-    padding: 10px;
-    list-style: none;
-    right: 37;
-    top: 56;
-    border-radius: 5px;
-  }
-  .mobile-topbar .close {
-    background-color: transparent;
-    border: none;
-    position: absolute;
-    right: 3;
-    top: -4;
-    font-size: 1.3rem;
-    font-weight: 500;
-    text-align: start;
-    &:hover {
-      color: rebeccapurple;
-    }
-  }
-  .mobile-topbar .topbar li {
-    list-style: none;
-    margin: 10px;
-  }
-}
+
