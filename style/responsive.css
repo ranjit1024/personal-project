@@ -61,6 +61,7 @@
   .second-side {
     margin: 10px;
     width: 96%;
+    
   }
 
   .about-section {
@@ -80,6 +81,7 @@
     width: 100vw;
     text-align: center;
     margin: 10px auto;
+    display: none;
   }
   .about-grid {
     display: flex;
