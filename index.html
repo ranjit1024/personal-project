@@ -12,6 +12,18 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "bz9w_T_2FP3bbvNPu",
+        });
+      })();
+    </script>
   </head>
   <body>
     <div class="mobile">
@@ -69,21 +81,10 @@
           </div>
 
           <div class="info">
-            <span
-              ><span class="fletter">P</span>lace your trust
-              <img
-                id="info1"
-                src="images/title/infologo1.png"
-                loading="lazy"
-                alt=""
-              />in us to provide a seamless and hassle-free experience
-              <img
-                id="info2"
-                src="images/title/Group 2.png"
-                alt=""
-                loading="lazy"
-              />
-              to get you dream job
+            <span class="fletter"
+              >Our mission is to help businesses like yours find the right
+              people to drive growth, innovation, and success. With a proven
+              track record and industry expertise, we deliver.
             </span>
           </div>
         </div>
@@ -106,8 +107,8 @@
             <p class="about">About Us</p>
             <p class="about-us-title hide">
               <span class="hide">Transforming</span> <br />
-              hiring experience with seamless communication between the candidate and the
-              recruiter
+              hiring experience with seamless communication between the
+              candidate and the recruiter
             </p>
             <div class="about-us-des hide">
               At Basu's Consulting, we are passionate about connecting
@@ -217,7 +218,6 @@
     <div class="contact-container main-hide">
       <div class="contact">
         <div class="contact-image">
-
           <button class="main-page">
             <i class="bi bi-arrow-left-circle"></i>Back to main page
           </button>
@@ -225,7 +225,9 @@
           <!-- <img src="images/logo.jpeg" alt="" loading="lazy"> -->
           <h1>BASU'S CONSULTING</h1>
           <div class="email">
-            <p><i class="bi bi-envelope-arrow-up-fill"></i>Send us An Email On</p>
+            <p>
+              <i class="bi bi-envelope-arrow-up-fill"></i>Send us An Email On
+            </p>
             <p class="email-id">basusconsulting@gmail.com</p>
           </div>
 
@@ -247,16 +249,12 @@
             <h1>Contact Us</h1>
           </div>
 
-          <form>
-
-            
-
+          <div class="form">
             <div class="name">
-
               <button class="main-mob">
                 <i class="bi bi-arrow-left-circle-fill"></i>
               </button>
-              
+
               <div class="firstname-container">
                 <label for="firstname" class="common">First Name</label>
                 <input
@@ -294,19 +292,33 @@
                 name=""
                 id="number"
                 placeholder="Enter Your Phone Number"
+                required
+                minlength="10"
               />
+              <p class="error" style="color: red; font-weight: 400;opacity: 0;">Number Should Contain 10 Digit</p>
             </div>
-            <input
-              type="submit"
+            <button
+              
               name="
             submit"
-              id=""
-            />
-          </form>
+              id="submit"
+             >
+             submit
+             </button>
+            </div>
         </div>
-      </div>
+      </div> 
     </div>
-
+    <div class="overlay">
+      
+    </div>
+    <div class="success-container">
+      <i class="bi bi-patch-check-fill"></i>
+      <p>You Request had been successfully Submited </p>
+      <button class="close">Goto Main Page</button>
+    
+    </div>
+    
     <footer>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -344,4 +356,5 @@
   </body>
   <script src="javascript/index.js"></script>
   <script src="javascript/conact.js"></script>
+  <script src="javascript/email.js"></script>
 </html>

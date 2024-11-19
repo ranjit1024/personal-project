@@ -18,6 +18,12 @@ const mobileMenu = document.querySelector(".mobile-menu");
 const contactUsMob = document.querySelector(".contact-us-mob");
 const mainMob = document.querySelector(".main-mob");
 
+const close = document.querySelector(".success-container .close");
+
+
+
+//accessing success
+
 contactButton.addEventListener('click', e =>{
     nav.classList.add("main-hide");
     main.classList.add("main-hide");
@@ -63,4 +69,19 @@ mainMob.addEventListener('click', e =>{
     main.classList.remove("main-hide");
     footer.classList.remove("main-hide");
     contactcontainer.classList.add("main-hide")
+})
+
+
+close.addEventListener('click', e =>{
+    document.querySelector('.overlay').classList.remove("show-overlay")
+    document.querySelector('.success-container').classList.remove("show-success")
+
+    setTimeout(()=>{
+
+        nav.classList.remove("main-hide");
+        main.classList.remove("main-hide");
+        footer.classList.remove("main-hide");
+    
+        contactcontainer.classList.add("main-hide")
+    }, 1000)
 })

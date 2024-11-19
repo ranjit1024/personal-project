@@ -110,29 +110,25 @@ nav .topbar {
 
 .learn-more {
   margin-top: 10px;
+  margin-bottom: 1.6rem;
 }
 .main-logo img{
   width: 200px;
 }
 
 .info {
-  margin-top: 2rem;
-  width: 600px;
+  margin-top: 2.5rem;
   font-size: 27px;
   font-weight: 500;
   display: flex;
   align-items: center;
   /* color:rgba(0, 0, 0, 0.797); */
   justify-content: center;
-  width: 80%;
+  width: 85%;
 
 }
-.info #info1 {
-  width: 25px;
-  margin: 0px 6px;
-}
-#info2 {
-  width: 35px;
+.info .fletter{
+  width: 100%;
 }
 
 /* second section */
@@ -149,7 +145,6 @@ nav .topbar {
   opacity: 0;
   background-repeat: no-repeat;
   
-  /* padding-bottom: 3rem; */
 }
 
 .second-side .second-side-img {
