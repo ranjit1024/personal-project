@@ -23,11 +23,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* display:none; */
+   
     margin: 0px;
-    width: 100%;
-    /* width: 100vw; */
-    /* min-width: 100%; */
+    min-width: 100vw;
+  
   }
 
   .main-logo {
@@ -67,7 +66,7 @@
   .about-section {
     /* text-align: center; */
     margin: 1px 1px;
-    width: 100%;
+    width: 100vw;
     margin: 10px 10px;
   }
   .about-grid .about-info-text{
@@ -78,7 +77,7 @@
     font-weight: 500;
   }
   .about-image{
-    width: 100%;
+    width: 100vw;
     text-align: center;
     margin: 10px auto;
   }

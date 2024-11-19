@@ -44,9 +44,12 @@
   margin-bottom: 20px;
 }
 /* desktop topbar */
+/* header{
+  width: 100vh
+} */
 nav {
   border-radius: 0 0 10% 10%;
-  min-width: 100vh;
+  width: 100vw;
   display: flex;
   text-align: center;
   justify-content: space-around;
@@ -82,7 +85,7 @@ nav .topbar {
     rgba(232, 229, 238, 16%) 24%,
     rgba(81, 11, 253, 16%) 95%
   );
-  width: 100%;
+  width: 100vw;
 }
 
 .content {
