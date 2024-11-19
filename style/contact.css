@@ -129,18 +129,17 @@
 .name {
   margin-bottom: 2rem;
 }
-.main-mob {
+#mobile-back{
   top: 10;
   left: 10;
   position: fixed;
   border: none;
   display: none;
+  background-color: transparent;
+  width: 10%;
+  color: green;
 }
-.main-mob {
-  font-size: 1.7rem;
-  font-weight: bolder;
-  color: darkgreen;
-}
+
 
 .name input {
   height: 2.3rem;
