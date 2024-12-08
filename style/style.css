@@ -11,9 +11,10 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  
 }
-
+body{
+  overflow-x: hidden;
+}
 /* Building top bar */
 .mobile{
   display: none; 
@@ -75,6 +76,7 @@ nav .topbar {
 }
 
 .landing-section {
+  overflow: hidden;
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 10rem;
@@ -136,6 +138,7 @@ nav .topbar {
 
 /* second section */
 .second-side {
+  overflow: hidden;
   margin-top: -100px;
   /* opacity: 0; */
   border-radius: 10px;
